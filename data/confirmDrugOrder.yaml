@@ -1,0 +1,13 @@
+#居民端收货接口
+- #test_01用例
+  detail: 收货
+  casename: "confirmDrugOrder_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.recipeService'
+    X-Service-Method: 'confirmReceipt'
+  data:
+    orderNo: "drugOrderNo"
+  expt:
+    code: 200

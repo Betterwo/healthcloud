@@ -1,0 +1,30 @@
+#药店查询接口
+- #test_01用例
+  detail: 'searchSuppliers正常(快递)'
+  casename: "searchSuppliers_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.recipeService'
+    X-Service-Method: 'searchSuppliers'
+  data:
+    recipeId: 'recipeId'
+    longitude: 0
+    latitude: 0
+  expt:
+    code: 200
+- #test_02用例
+  detail: 'searchSuppliers正常(自取)'
+  casename: "searchSuppliers_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.recipeService'
+    X-Service-Method: 'searchSuppliers'
+  data:
+    recipeId: 'recipeId'
+    longitude: "113.235233"
+    latitude: "22.682604"
+    deliveryFlag: 2
+  expt:
+    code: 200

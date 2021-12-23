@@ -1,0 +1,12 @@
+#获取药店支付接口
+- #test_01用例
+  detail: 返回药店支付方式等信息
+  casename: "drugStorePayList_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.orderService'
+    X-Service-Method: 'queryPharmacyChannelListByOrderNo'
+  data: ['recipeOrderNo']
+  expt:
+    code: 200

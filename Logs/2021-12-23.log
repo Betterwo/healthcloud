@@ -1,0 +1,6 @@
+Thu, 23 Dec 2021 09:24:28-test_delivery_drug.py-login.py-[line:74]-INFO-[日志信息]: drugStore_login_success request success
+Thu, 23 Dec 2021 09:24:29-test_delivery_drug.py-pageList.py-[line:79]-INFO-[日志信息]: drugOrderInfo_success request success
+Thu, 23 Dec 2021 09:24:56-test_delivery_drug.py-delivery_drug.py-[line:35]-INFO-[日志信息]: delivery_drug_success request success
+Thu, 23 Dec 2021 18:26:29-test_confirmDrugOrder.py-login.py-[line:35]-INFO-[日志信息]: user_login_success request success
+Thu, 23 Dec 2021 18:27:01-test_confirmDrugOrder.py-login.py-[line:35]-INFO-[日志信息]: user_login_success request success
+Thu, 23 Dec 2021 18:27:01-test_confirmDrugOrder.py-confirmDrugOrder.py-[line:32]-INFO-[日志信息]: confirmDrugOrder_success request success

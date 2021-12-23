@@ -1,0 +1,30 @@
+#获取订单列表接口
+- #test_01用例
+  detail: 返回订单列表(01-待接诊，02-进行中，05-已完成[0-未评价，1-已评价]，11-待付款)
+  casename: "pageList_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.revisitService'
+    X-Service-Method: 'listPage'
+  data:
+    pageNo: 1
+    pageSize: 20
+    orderStatus: "01"
+  expt:
+    code: 200
+
+- #test_02用例
+  detail: 返回订单列表(01-待接诊，02-进行中，05-已完成[0-未评价，1-已评价]，11-待付款)
+  casename: "pageList_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.revisitService'
+    X-Service-Method: 'listPage'
+  data:
+    pageNo: 1
+    pageSize: 20
+    orderStatus: "02"
+  expt:
+    code: 200

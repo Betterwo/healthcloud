@@ -1,0 +1,29 @@
+#药品订单查询接口
+- #test_01用例
+  detail: 返回药品订单信息
+  casename: "drugOrderInfo_success"
+  header:
+    product-code: 'pc'
+  data:
+    deliveryStatus: ""
+    deliveryType: ""
+    drugStoreMchId: 92
+    endTime: "2021-12-22 23:59:59"
+    getDrugCode: ""
+    mchId: ""
+    orderIdOutter: ""
+    orderNo: ""
+    orderStatus: "04"
+    orderType: ""
+    pageNo: 1
+    pageSize: 10
+    payType: ""
+    startTime: "2021-11-22 00:00:00"
+    status: 1
+    storeId: ""
+    testFlag: ""
+    userName: "林靖凯"
+    voiceExit: ""
+    voiceNeed: ""
+  expt:
+    code: 200

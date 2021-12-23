@@ -1,0 +1,42 @@
+Fri, 17 Dec 2021 10:33:54-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:34:10-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:34:32-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:34:38-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:34:47-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:34:56-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:35:05-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:35:55-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:36:28-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:37:03-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:38:39-conftest.py-searchSuppliers.py-[line:31]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:39:31-conftest.py-searchSuppliers.py-[line:31]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:42:53-conftest.py-searchSuppliers.py-[line:34]-ERROR-[日志信息]: searchSuppliers_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Fri, 17 Dec 2021 10:43:01-conftest.py-searchSuppliers.py-[line:34]-ERROR-[日志信息]: searchSuppliers_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Fri, 17 Dec 2021 10:43:06-conftest.py-searchSuppliers.py-[line:34]-ERROR-[日志信息]: searchSuppliers_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Fri, 17 Dec 2021 10:43:45-conftest.py-searchSuppliers.py-[line:34]-ERROR-[日志信息]: searchSuppliers_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Fri, 17 Dec 2021 10:44:03-conftest.py-searchSuppliers.py-[line:31]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:44:10-conftest.py-searchSuppliers.py-[line:31]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:46:46-conftest.py-searchSuppliers.py-[line:31]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:47:10-conftest.py-searchSuppliers.py-[line:31]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 10:47:20-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 11:01:08-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 11:04:43-conftest.py-findRecipeInfoByOrderNo.py-[line:35]-INFO-[日志信息]: getRecipeInfoByOrderNo_success request success
+Fri, 17 Dec 2021 11:05:06-conftest.py-findRecipeInfoByOrderNo.py-[line:35]-INFO-[日志信息]: getRecipeInfoByOrderNo_success request success
+Fri, 17 Dec 2021 11:06:01-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 11:06:01-conftest.py-findRecipeInfoByOrderNo.py-[line:35]-INFO-[日志信息]: getRecipeInfoByOrderNo_success request success
+Fri, 17 Dec 2021 11:25:10-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 11:25:11-conftest.py-findRecipeInfoByOrderNo.py-[line:35]-INFO-[日志信息]: getRecipeInfoByOrderNo_success request success
+Fri, 17 Dec 2021 11:27:12-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 11:27:12-conftest.py-findRecipeInfoByOrderNo.py-[line:35]-INFO-[日志信息]: getRecipeInfoByOrderNo_success request success
+Fri, 17 Dec 2021 11:27:31-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 11:27:31-conftest.py-findRecipeInfoByOrderNo.py-[line:35]-INFO-[日志信息]: getRecipeInfoByOrderNo_success request success
+Fri, 17 Dec 2021 17:25:13-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 17:27:01-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 17:27:02-conftest.py-findRecipeInfoByOrderNo.py-[line:35]-INFO-[日志信息]: getRecipeInfoByOrderNo_success request success
+Fri, 17 Dec 2021 17:27:37-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 17:27:37-conftest.py-findRecipeInfoByOrderNo.py-[line:35]-INFO-[日志信息]: getRecipeInfoByOrderNo_success request success
+Fri, 17 Dec 2021 17:45:25-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 17:45:25-conftest.py-findRecipeInfoByOrderNo.py-[line:35]-INFO-[日志信息]: getRecipeInfoByOrderNo_success request success
+Fri, 17 Dec 2021 18:20:24-conftest.py-findRecipeInfoByOrderNo.py-[line:35]-INFO-[日志信息]: getRecipeInfoByOrderNo_success request success
+Fri, 17 Dec 2021 18:39:39-conftest.py-searchSuppliers.py-[line:30]-INFO-[日志信息]: searchSuppliers_success request success
+Fri, 17 Dec 2021 18:39:39-conftest.py-findRecipeInfoByOrderNo.py-[line:35]-INFO-[日志信息]: getRecipeInfoByOrderNo_success request success

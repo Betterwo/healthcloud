@@ -1,0 +1,17 @@
+#处方发药接口
+- #test_01用例
+  detail: 处方发药接口
+  casename: "delivery_drug_success"
+  header:
+    product-code: 'pc'
+  data:
+    deliveryNo: "SF1194793182749"
+    orderId: "orderId"
+    personId: "personId"
+    personIddsispense: "personIddsispense"
+    personIdrecheck: "personIdrecheck"
+    result: 1
+    transportId: "transportId"
+    isSendBySFExpress: False
+  expt:
+    code: 200

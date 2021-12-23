@@ -1,0 +1,56 @@
+#处方上传接口
+- #test_01用例
+  detail: 处方上传成功
+  casename: "uploadRepice_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.recipeService'
+    X-Service-Method: 'submitRecipe'
+  data:
+    revisitId: 'revisitId'
+    recipeTypeCode: '21'
+    mzDiagnoses:
+      icdId: '1'
+      tenantId: 'hcn.zhongshanih,hcn.fs-nhqrmyy,hcn.fs-ssqrmyy,hcn.huaian,hcn.fs-nhqzyy,hcn.wenzhou,hcn.csh,hcn.csh4,hcn.csh6,hcn.fs-dsrmyy,hcn.zuhutest,hcn.kaifa,hcn.single,hcn.product,hcn.ww,hcn.www,hcn.wwww,hcn.wwyy,hcn.hcn.wyh,hcn.CS0519,hcn.healthcloud,hcn.zyh,hcn.ces0824,hcn.test0825,hcn.CES0826,hcn.ck11,hcn.hhhh,hcn.qwer,hcn.wwwom,hcn.gxylzyy,hcn.ceshi,hcn.333,hcn.${time},hcn.20210923093610,hcn.20210923093757,hcn.345,hcn.123,hcn.20210924094900,hcn.20210924095125,hcn.20211022100751,hcn.1022,hcn.testjiagou,hcn.zxw,hcn.20211208045238'
+      icdCode: 'A00.000'
+      icdType: '01'
+      icdName: '霍乱，由于01群霍乱弧菌，霍乱生物型所致'
+      mnemonic: 'hlyy01qhlhjhlswxsz'
+      icdVersion: '2019'
+    drugs:
+      drugName: "益心舒胶囊"
+      drugSpecifications: "0.4g*36粒"
+      drugUseDoseTotal: 14.4
+      drugUsingRate: "02"
+      drugUsingRateText: "biw"
+      drugUseDose: 1
+      drugUseDoseUnitText: "g"
+      drugUsePathwaysCode: "1"
+      drugUsePathwaysCodeText: "口服"
+      drugUseDays: 1
+      drugSendNumber: 1
+      drugPackSpecificationUnitText: "盒"
+      remark: "auto test"
+      drugCodeStandard: "32ba4c228e9a40c59144fffaac98a7c9"
+      drugCatalogType: 2
+      generalName: "益心舒胶囊"
+      outterDrugId: "00"
+      outterDrugCode: "1954"
+      drugType: "21"
+      mnemonic: "yxsjn"
+      drugCodeCountry: "1954"
+      drugApprovalNumber: "国药准字Z52020038"
+      drugProductionPlaceId: "167"
+      drugProductionPlaceName: "贵州信邦制药股份有限公司"
+      pharmaceuticalDosageFormCode: "20"
+      pharmaceuticalDosageFormName: "软胶囊,滴丸,胶丸"
+      drugPackSpecificationUnit: "8"
+      drugPackSpecificationRatio: 0
+      drugUseDoseUnit: "1"
+      price: 1
+      stockFlag: 1
+      status: "1"
+      highRiskDrugFlag: "1"
+  expt:
+    code: 200

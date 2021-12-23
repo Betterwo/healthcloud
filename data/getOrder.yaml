@@ -1,0 +1,12 @@
+#获取复诊/药品订单接口
+- #test_01用例
+  detail: 返回复诊、药品订单信息
+  casename: "getOrder_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.orderService'
+    X-Service-Method: 'getOrder'
+  data: ['orderNo']
+  expt:
+    code: 200

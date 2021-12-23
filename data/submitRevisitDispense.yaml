@@ -1,0 +1,26 @@
+#订单确认接口
+- #test_01用例
+  detail: 订单提交，返回订单编号
+  casename: "submitRevisitDispense_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/x-www-form-urlencoded'
+    charset: 'UTF-8'
+  data:
+    mpiId: ""
+    revisitStandardDeptName: ""
+    revisitStandardDeptId: "11"
+    price: ''
+    goodsId: 5351
+    goodsName: "复诊配药"
+    goodsCode: "04"
+    doctorOnlineExtraId: ''
+    docScheduleId: ''
+    scheduleStartTime: "2021-12-01 11:30:00"
+    diseaseSituation:
+      chiefComplaint: "test test"
+      preTreatmentFlag: 0
+      drugName: ""
+
+  expt:
+    code: 200

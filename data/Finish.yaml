@@ -1,0 +1,13 @@
+#居民端结束订单接口
+- #test_01用例
+  detail: 结束复诊
+  casename: "finish_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.revisitService'
+    X-Service-Method: 'finishRt'
+  data:
+    orderNo: ['revisitId']
+  expt:
+    code: 200

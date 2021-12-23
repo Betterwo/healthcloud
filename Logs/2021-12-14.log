@@ -1,0 +1,35 @@
+Tue, 14 Dec 2021 09:22:02-test_searchSuppliers.py-login.py-[line:38]-ERROR-[日志信息]: user_login_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /logon/login (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Tue, 14 Dec 2021 09:22:14-test_searchSuppliers.py-login.py-[line:35]-INFO-[日志信息]: user_login_success request success
+Tue, 14 Dec 2021 09:22:14-test_searchSuppliers.py-search.py-[line:27]-INFO-[日志信息]: search_success request success
+Tue, 14 Dec 2021 09:22:15-test_searchSuppliers.py-getIhDoctorInfo.py-[line:31]-INFO-[日志信息]: getIhDoctorInfo_success request success
+Tue, 14 Dec 2021 09:22:15-test_searchSuppliers.py-search.py-[line:27]-INFO-[日志信息]: getFamilyMemberList_success request success
+Tue, 14 Dec 2021 09:22:16-test_searchSuppliers.py-submitRevisitDispense.py-[line:33]-INFO-[日志信息]: submitRevisitDispense_success request success
+Tue, 14 Dec 2021 09:22:16-test_searchSuppliers.py-findRecipeInfoByOrderNo.py-[line:35]-INFO-[日志信息]: getRecipeInfoByOrderNo_success request success
+Tue, 14 Dec 2021 14:06:37-conftest.py-getPayChannel.py-[line:51]-ERROR-[日志信息]: drugStorePayList_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Tue, 14 Dec 2021 14:07:28-conftest.py-getPayChannel.py-[line:51]-ERROR-[日志信息]: drugStorePayList_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Tue, 14 Dec 2021 14:07:58-conftest.py-getPayChannel.py-[line:50]-ERROR-[日志信息]: drugStorePayList_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Tue, 14 Dec 2021 14:08:28-conftest.py-getPayChannel.py-[line:50]-ERROR-[日志信息]: drugStorePayList_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Tue, 14 Dec 2021 14:08:38-conftest.py-getPayChannel.py-[line:47]-INFO-[日志信息]: drugStorePayList_success request success
+Tue, 14 Dec 2021 14:08:45-conftest.py-getPayChannel.py-[line:47]-INFO-[日志信息]: drugStorePayList_success request success
+Tue, 14 Dec 2021 14:08:56-conftest.py-getPayChannel.py-[line:47]-INFO-[日志信息]: drugStorePayList_success request success
+Tue, 14 Dec 2021 14:09:09-conftest.py-getPayChannel.py-[line:47]-INFO-[日志信息]: drugStorePayList_success request success
+Tue, 14 Dec 2021 14:29:00-conftest.py-getOrder.py-[line:48]-ERROR-[日志信息]: drugStorePayList_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Tue, 14 Dec 2021 14:29:16-conftest.py-getOrder.py-[line:48]-ERROR-[日志信息]: drugStorePayList_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Tue, 14 Dec 2021 14:29:43-conftest.py-getOrder.py-[line:48]-ERROR-[日志信息]: drugStorePayList_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Tue, 14 Dec 2021 14:29:49-conftest.py-getOrder.py-[line:48]-ERROR-[日志信息]: drugStorePayList_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Tue, 14 Dec 2021 14:30:13-conftest.py-getOrder.py-[line:49]-ERROR-[日志信息]: drugStorePayList_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Tue, 14 Dec 2021 14:30:24-conftest.py-getOrder.py-[line:49]-ERROR-[日志信息]: drugStorePayList_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Tue, 14 Dec 2021 14:30:31-conftest.py-getOrder.py-[line:49]-ERROR-[日志信息]: drugStorePayList_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Tue, 14 Dec 2021 14:31:35-conftest.py-getOrder.py-[line:49]-ERROR-[日志信息]: getOrder_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Tue, 14 Dec 2021 14:32:29-conftest.py-getOrder.py-[line:49]-ERROR-[日志信息]: getOrder_success request faild,throw error:HTTPSConnectionPool(host='hcnih.bsoft.com.cn', port=443): Max retries exceeded with url: /*.jsonRequest (Caused by SSLError(SSLError(1, u'[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:727)'),))
+Tue, 14 Dec 2021 14:33:40-conftest.py-getOrder.py-[line:46]-INFO-[日志信息]: getOrder_success request success
+Tue, 14 Dec 2021 14:33:51-conftest.py-getOrder.py-[line:46]-INFO-[日志信息]: getOrder_success request success
+Tue, 14 Dec 2021 14:33:56-conftest.py-getOrder.py-[line:46]-INFO-[日志信息]: getOrder_success request success
+Tue, 14 Dec 2021 14:45:37-conftest.py-getOrder.py-[line:46]-INFO-[日志信息]: getOrder_success request success
+Tue, 14 Dec 2021 15:29:31-test_pharmacist_login.py-login.py-[line:74]-INFO-[日志信息]: pharmacist_login_success request success
+Tue, 14 Dec 2021 15:31:24-test_pharmacist_login.py-login.py-[line:74]-INFO-[日志信息]: pharmacist_login_success request success
+Tue, 14 Dec 2021 17:37:36-test_login.py-login.py-[line:35]-INFO-[日志信息]: user_login_success request success
+Tue, 14 Dec 2021 17:37:36-test_login.py-login.py-[line:35]-INFO-[日志信息]: user_pwd_error request success
+Tue, 14 Dec 2021 17:37:47-test_doctor_login.py-login.py-[line:56]-INFO-[日志信息]: doctor_login_success request success
+Tue, 14 Dec 2021 17:40:33-test_pharmacist_login.py-login.py-[line:74]-INFO-[日志信息]: pharmacist_login_success request success
+Tue, 14 Dec 2021 17:40:57-test_pharmacist_login.py-login.py-[line:74]-INFO-[日志信息]: pharmacist_login_success request success

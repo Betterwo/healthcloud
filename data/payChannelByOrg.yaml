@@ -1,0 +1,12 @@
+#根据机构id获取支付方式接口
+- #test_01用例
+  detail: 返回复诊订单信息
+  casename: "payChannelByOrg_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.orderService'
+    X-Service-Method: 'payChannelByOrg'
+  data: ['orgId','']
+  expt:
+    code: 200

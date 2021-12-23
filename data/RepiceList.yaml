@@ -1,0 +1,17 @@
+#处方平台查询接口
+- #test_01用例
+  detail: 查询指定开方医生的待审核处方
+  casename: "repice_search_success"
+  header:
+    product-code: 'pc'
+  data:
+    doctorNameOutter: "李菊英"
+    isCheck: False
+    isFilter: True
+    pageNo: 1
+    pageSize: 10
+    recipeCode: ""
+    recipeStatus: 3
+    testFlag: ""
+  expt:
+    code: 200

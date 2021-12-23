@@ -1,0 +1,25 @@
+#订单查询接口
+- #test_01用例
+  detail: 待接诊复诊订单查询
+  casename: "doctorRevisiList_01_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.doctor_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: "cas_ih_foshan.revisitService"
+    X-Service-Method: "revisitList"
+  data: [1,1,20]
+  expt:
+    code: 200
+
+- #test_02用例
+  detail: 复诊中复诊订单查询
+  casename: "doctorRevisiList_02_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.doctor_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: "cas_ih_foshan.revisitService"
+    X-Service-Method: "revisitList"
+  data: [2,1,20]
+  expt:
+    code: 200
+

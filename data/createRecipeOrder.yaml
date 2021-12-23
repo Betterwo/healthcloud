@@ -1,0 +1,53 @@
+#创建处方订单接口
+- #test_01用例
+  detail: 创建处方订单
+  casename: "createRecipeOrder_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Method: "createRecipeOrder"
+    X-Service-Id: "cas_ih_foshan.recipeOrderService"
+  data:
+    shopId: "shopId"    #getRecipePrecalculatedFee接口获取 ['body']['details'][0]['orgId']
+    quantity: 1         #getRecipePrecalculatedFee接口获取['body']['details'][0]['quantity']
+    shippingAmount: 0
+    provinceText: "江苏省"           #写死
+    cityText: "南京市"               #写死
+    districtText: "秦淮区"           #写死
+    streetText: "夫子庙街道"         #写死
+    addressDetail: "哈哈哈哈"        #写死
+    regionCode: "320104002000"      #写死
+    receiverName: "黄黄"            #写死
+    receiverPhone: "13018930799"    #写死
+    recipeUnionId: 'recipeId'       #getRecipePrecalculatedFee接口获取 ['body']['details'][0]['recipeId']
+    storeId: "331"                  #searchSuppliers接口获取['body'][0]['storeIdOutter']
+    storeName: "银川第一药店"        #searchSuppliers接口获取['body'][0]['storeName']
+    storePhone: "18072631456"       #searchSuppliers接口获取['body'][0]['phone']
+    storeAddress: "test"            #searchSuppliers接口获取['body'][0]['orgAddress']
+    storeMchId: "storeMchId"        #searchSuppliers接口获取['body'][0]['operateMchId']
+    longitude: "longitude"          #searchSuppliers接口获取['body'][0]['longitude']
+    latitude: "latitude"            #searchSuppliers接口获取['body'][0]['latitude']
+    goodsCategory: "80"             #写死
+    postWay: "4"                    #写死
+    remark: ""
+    ex: ""
+    invoiceId: ""
+    deliveryMode: 1
+    recipeDetailList:
+      recipeId: 'recipeId'      #getRecipePrecalculatedFee接口获取 ['body']['details'][0]['recipeId']
+      orgId: "orgId"            #getRecipePrecalculatedFee接口获取 ['body']['details'][0]['orgId']
+      drugCodeStandard: "2102"  #getRecipePrecalculatedFee接口获取['body']['details'][0]['drugCodeStandard']
+      detailId: "detailId"      #getRecipePrecalculatedFee接口获取 ['body']['details'][0]['detailId']
+      itemType: "21"            #getRecipePrecalculatedFee接口获取 ['body']['details'][0]['itemType']
+      itemOrder: 0              #getRecipePrecalculatedFee接口获取['body']['details'][0]['itemOrder']
+      itemName: "0907ces"       #getRecipePrecalculatedFee接口获取['body']['details'][0]['itemName']
+      itemNo: "cs0023"          #getRecipePrecalculatedFee接口获取['body']['details'][0]['itemNo']
+      quantity: 1               #getRecipePrecalculatedFee接口获取['body']['details'][0]['quantity']
+      price: 0                  #getRecipePrecalculatedFee接口获取['body']['details'][0]['price']
+      drugSpecifications: "0907ces" #getRecipePrecalculatedFee接口获取['body']['details'][0]['drugSpecifications']
+      medicineMethod: "medicineMethod"  #getRecipePrecalculatedFee接口获取['body']['details'][0]['medicineMethod']
+      remark: "111111"
+      payAmount: 0
+    orderAmount: 0
+  expt:
+    code: 200

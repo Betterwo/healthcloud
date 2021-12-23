@@ -1,0 +1,12 @@
+#获取支付结果接口
+- #test_01用例
+  detail: 返回200
+  casename: "NotifyPayResult_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.orderService'
+    X-Service-Method: 'notifyPayResult'
+  data: ['orderNo']
+  expt:
+    code: 200

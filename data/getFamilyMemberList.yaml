@@ -1,0 +1,13 @@
+#获取家庭成员接口
+- #test_01用例
+  detail: 返回家庭成员
+  casename: "getFamilyMemberList_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.familyService'
+    X-Service-Method: 'getFamilyMemberList'
+  data: [True]
+  expt:
+    code: 200
+

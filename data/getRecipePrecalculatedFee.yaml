@@ -1,0 +1,12 @@
+#药品订单预结算接口
+- #test_01用例
+  detail: 返回字段部分用于创建药品订单接口的入参
+  casename: "getRecipePrecalculatedFee_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.recipeService'
+    X-Service-Method: 'getRecipePrecalculatedFee'
+  data: ['revisitId', ['recipeId']]
+  expt:
+    code: 200

@@ -1,0 +1,22 @@
+#处方平台药师登录接口
+- #test_01用例
+  detail: 账号和密码都正确（药师）
+  casename: "pharmacist_login_success"
+  header:
+    product-code: 'pc'
+  data:
+    loginName: 'yccsys'
+    password: '123456'
+  expt:
+    code: 200
+
+- #test_02用例
+  detail: 账号和密码都正确(药店)
+  casename: "drugStore_login_success"
+  header:
+    product-code: 'pc'
+  data:
+    loginName: 'ydyinchuan'
+    password: 'cyhk@20200101new'
+  expt:
+    code: 200

@@ -1,0 +1,30 @@
+#登录接口
+- #test_01用例
+  detail: 账号和密码都正确
+  casename: "user_login_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+  data:
+    loginName: '13018930799'
+    pwd: 'bsoft@123'
+    forAccessToken: True
+    rid: 'patient'
+    tenantId: 'hcn.healthcloud'
+  expt:
+    code: 200
+
+- #test_02用例
+  detail: 密码错误
+  casename: "user_pwd_error"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+  data:
+    loginName: '13018930799'
+    pwd: 'bsoft@'
+    forAccessToken: True
+    rid: 'patient'
+    tenantId: 'hcn.healthcloud'
+  expt:
+    code: 501

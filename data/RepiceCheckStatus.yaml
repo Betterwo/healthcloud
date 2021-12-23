@@ -1,0 +1,12 @@
+#处方审核接口
+- #test_01用例
+  detail: 审核指定的处方id
+  casename: "repice_checkStusta_success"
+  header:
+    product-code: 'pc'
+  data:
+    recipeId: "repiceId"
+    reason: ''
+    result: 1
+  expt:
+    code: 200

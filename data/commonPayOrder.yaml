@@ -1,0 +1,17 @@
+#支付接口
+- #test_01用例
+  detail: 返回200
+  casename: "commonPayOrder_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.orderService'
+    X-Service-Method: 'commonPayOrder'
+  data:
+    orderNo: "orderNo"
+    payAmount: 0
+    goodsCategory: "70"
+    payChannel: "02"
+    flag: True
+  expt:
+    code: 200

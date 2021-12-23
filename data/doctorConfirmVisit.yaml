@@ -1,0 +1,15 @@
+#医生接诊接口
+- #test_01用例
+  detail: 返回200
+  casename: "doctorConfirm_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.revisitService'
+    X-Service-Method: 'confirmVisit'
+  data:
+    revisitId: "revisitId"
+    choose: 1
+    revisitPersonNum: "1"
+  expt:
+    code: 200

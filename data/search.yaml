@@ -1,0 +1,12 @@
+#search接口
+- #test_01用例
+  detail: 'search正常'
+  casename: "search_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.healthIndexService'
+    X-Service-Method: 'search'
+  data: ["01", "李菊英",1,20 ]
+  expt:
+    code: 200

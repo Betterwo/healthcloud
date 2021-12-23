@@ -1,0 +1,12 @@
+#医生信息查询接口
+- #test_01用例
+  detail: 医生主页，返回医生信息
+  casename: "getIhDoctorInfo_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: "cas_ih_foshan.doctorOnlineService"
+    X-Service-Method: "getIhDoctorInfo"
+  data: ["doctorId", 1, 5]
+  expt:
+    code: 200

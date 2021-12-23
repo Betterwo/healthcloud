@@ -1,0 +1,13 @@
+#根据订单号获取医嘱接口
+- #test_01用例
+  detail: 返回医嘱列表
+  casename: "getRecipeInfoByOrderNo_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.patient_ios'
+    Content-Type: 'application/json'
+    X-Service-Id: 'cas_ih_foshan.recipeService'
+    X-Service-Method: 'findRecipeInfoByOrderNo'
+  data: ["orderNo"]
+  expt:
+    code: 200
+

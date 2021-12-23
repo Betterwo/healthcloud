@@ -1,0 +1,15 @@
+#医生登录接口
+- #test_01用例
+  detail: 账号和密码都正确
+  casename: "doctor_login_success"
+  header:
+    B-Product-Code: 'hcn.healthcloud.doctor_ios'
+    Content-Type: 'application/json'
+  data:
+    loginName: '13263109211'
+    pwd: '109211'
+    forAccessToken: True
+    rid: 'doctor'
+    tenantId: 'hcn.healthcloud'
+  expt:
+    code: 200
