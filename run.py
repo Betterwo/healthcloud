@@ -8,5 +8,4 @@ import pytest
 
 if __name__ == '__main__':
 
-    pytest.main(["-s"])  # 运行 cases下所有测试用例
-
+    pytest.main(["-s"])  # 运行 cases下所有测试用例111
