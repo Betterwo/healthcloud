@@ -46,4 +46,4 @@ class Finish:
             logger.info('{} request success'.format(casename))
             return resp
         except Exception as e:
-            logger.error("{} request faild,throw error:{}".format(casename,e))
+            logger.error("{} request faild,throw  error:{}".format(casename,e))

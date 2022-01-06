@@ -1,7 +1,7 @@
 #居民端结束订单接口
 - #test_01用例
   detail: 结束复诊
-  casename: "finish_success"
+  casename: "finish_success1"
   header:
     B-Product-Code: 'hcn.healthcloud.patient_ios'
     Content-Type: 'application/json'

@@ -17,4 +17,4 @@ class TestFinish:
         assert resp.json()['code'] == expt['code']
 
 if __name__ == '__main__':
-    pytest.main(['test_finish.py','-s'])
+    pytest.main(['test_finish.py' ,'-s'])

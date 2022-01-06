@@ -87,7 +87,7 @@ def clear(get_user_token1):
             resp = Finish().clearFinish(inData2,expt2,header2,casename2,get_user_token1,revisitId)
             print "复诊中的订单[%s]已结束" % revisitId
     else:
-        print "该账号不存在复诊中的订单"
+        print "该账号不存在复诊中的订单！"
 
 
 
