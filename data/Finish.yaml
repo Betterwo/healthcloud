@@ -7,7 +7,6 @@
     Content-Type: 'application/json'
     X-Service-Id: 'cas_ih_foshan.revisitService'
     X-Service-Method: 'finishRt'
-  data:
-    orderNo: ['revisitId']
+  data: ['1']
   expt:
     code: 200
