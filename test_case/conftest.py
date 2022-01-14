@@ -64,14 +64,15 @@ def get_drugStore_token():
 
 
 #清理数据，获取该居民账号复诊中的订单，并且将复诊中的订单结束掉
-@pytest.fixture(scope='session')
-def clear(get_user_token1):
+#autouse 参数的作用是 自动执行，这个 fixture 不用主动调用，它会在相应的作用域中自动执行，并且在同一作用域中优先级最高
+@pytest.fixture(scope='session',autouse=True)
+def clear(get_user_token):
     data_list   = get_yaml_data(testCasePath + '/pageList.yaml')
     inData      = data_list[1][0]
     expt        = data_list[1][1]
     header      = data_list[1][2]
     casename    = data_list[1][3]
-    resp        = PageList().revisitPageList(inData, header,casename,get_user_token1)
+    resp        = PageList().revisitPageList(inData, header,casename,get_user_token)
 
     revisitList = resp.json()['body']#复诊中列表
     data_list2   = get_yaml_data(testCasePath + '/Finish.yaml')
@@ -84,13 +85,10 @@ def clear(get_user_token1):
         for revisit in revisitList:
             revisitId = revisit['revisitId']
             print "正在结束复诊中的订单[%s]" % revisitId
-            resp = Finish().clearFinish(inData2,expt2,header2,casename2,get_user_token1,revisitId)
+            resp = Finish().clearFinish(inData2,expt2,header2,casename2,get_user_token,revisitId)
             print "复诊中的订单[%s]已结束" % revisitId
     else:
         print "该账号不存在复诊中的订单！"
-
-
-
 
 if __name__ == '__main__':
     clear('84721f32-63aa-4e37-8d72-cb67c87086ec')
