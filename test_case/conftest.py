@@ -14,6 +14,15 @@ from tools.getPath import testCasePath
 from libs.pageList import PageList
 from libs.finish import Finish
 
+from configs.Log_config import Log
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+file    =   os.path.basename(sys.argv[0])
+log     =   Log(file)
+logger  =   log.Logger
+
 @pytest.fixture(scope='session')
 def get_user_token():
     case_list   = get_yaml_data(testCasePath + '/loginCase.yaml')
@@ -84,11 +93,14 @@ def clear(get_user_token):
     if revisitList:
         for revisit in revisitList:
             revisitId = revisit['revisitId']
-            print "正在结束复诊中的订单[%s]" % revisitId
+            #print "正在结束复诊中的订单[%s]" % revisitId
+            logger.info('正在结束复诊中的订单[{}]'.format(revisitId))
             resp = Finish().clearFinish(inData2,expt2,header2,casename2,get_user_token,revisitId)
-            print "复诊中的订单[%s]已结束" % revisitId
+            #print "复诊中的订单[%s]已结束" % revisitId
+            logger.info('复诊中的订单[{}]已结束'.format(revisitId))
     else:
-        print "该账号不存在复诊中的订单！"
+        #print "该账号不存在复诊中的订单！"
+        logger.info('该账号不存在复诊中的订单！')
 
 if __name__ == '__main__':
     clear('84721f32-63aa-4e37-8d72-cb67c87086ec')
